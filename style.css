@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+}
+#griglia{
+    width: 500px;
+    height: 254px;
+    margin: auto;
+    border: 2px solid black;
+}
+.quadratini{
+    width: 99px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+}
