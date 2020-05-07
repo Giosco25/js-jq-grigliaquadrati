@@ -7,6 +7,7 @@ console.log(numeri_random);
 function genera_random(min, max) {
   return Math.floor(Math.random() * (max - min) ) + min;
 }
-$('.quadratini').append(function(){
-    numeri_random = genera_random();
-});
+
+$('.quadratini').each(function(){
+    $('.quadratini').append(numeri_random);
+})
