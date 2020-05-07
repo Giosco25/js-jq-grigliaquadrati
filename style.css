@@ -20,3 +20,12 @@
     border: 1px solid black;
     float: left;
 }
+.pari-rosso{
+    color: red;
+}
+.dispari-nero{
+    color:black;
+}
+.zero{
+    color:green;
+}
