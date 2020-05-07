@@ -5,9 +5,11 @@ var numeri_random = genera_random(0,11)
 console.log(numeri_random);
 // Genero numeri random da 1 a 10
 function genera_random(min, max) {
-  return Math.floor(Math.random() * (max - min) ) + min;
+    return Math.floor(Math.random() * (max - min) ) + min;
 }
 
 $('.quadratini').each(function(){
-    $('.quadratini').append(numeri_random);
+    var numeri_random = genera_random(0,11)
+    $(this).append(numeri_random);
+
 })
